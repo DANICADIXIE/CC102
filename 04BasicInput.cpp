@@ -15,7 +15,7 @@ int main ()
 	cin >> course;
 	cout << "School:";
 	cin >> school;
-	cout << "Wow Congrats" << nickname << << course << "is a nice course. And you are studying in"
+	cout << "Wow Congrats" << nickname << "!" << course << "is a nice course. And you are studying in" << school << which is one of the Center Excellence in Tertiary Education. ";
 	
 return 0;
 
