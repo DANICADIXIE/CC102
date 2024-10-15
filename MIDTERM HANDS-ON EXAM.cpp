@@ -16,31 +16,33 @@ int main ()
 	cin >> ricePricePound;
 	cout << "Enter Price of Sardines(Pound)\t|\t";
 	cin >> sardinesPricePound;
-	cout << "Enter Price of Coffee ($)\t\t|\t";
+	cout << "Enter Price of Coffee($)\t\t|\t";
 	cin >> coffeePriceUSD;
-	cout << "Enter Price of Coffee ($)\t\t|\t";
+	cout << "Enter Price of Milk($)\t\t|\t";
 	cin >>  milkPriceUSD;
 	
 	cout << endl;
 
 	cout << "Enter Sugar Quantity\t\t\t|\t";
-	cin >> sugarPriceUSD;
+	cin >> sugarQty;
 	cout << "Enter Rice Quantity\t\t\t|\t";
-	cin >> ricePricePound;
+	cin >> riceQty;
 	cout << "Enter Sardines Quantity\t\t|\t";
-	cin >> sardinesPricePound;
-	cout << "Enter Price of Coffee ($)\t\t|\t";
-	cin >> coffeePriceUSD;
-	cout << "Enter Price of Coffee ($)\t\t|\t";
-	cin >>  milkPriceUSD;
+	cin >> sardinesQty;
+	cout << "Enter Coffee Quantity\t\t\t|\t";
+	cin >> coffeeQty;
+	cout << "Enter Milk Quantity\t\t\t|\t";
+	cin >>  milkQty;
+
+	sugarCostPHP = sugarPriceUSD * usdToPhp;
+	cout << "Enter Price of Sugar (Php)\t|\t" << sugarCostPHP << endl;
 	
-    
+	coffeeCostPHP = coffeePriceUSD * usdToPhp;
+	cout << "Enter Price of Coffee (Php)\t|\t" << coffeeCostPHP << endl;
 	
+	milkCostPHP = milkPriceUSD * usdToPhp;
+	cout << "Enter Price of Milk (Php)\t|\t" << milkCostPHP << endl;
 
-
-
-
-
-
-
+	return 0;
+	
 }
